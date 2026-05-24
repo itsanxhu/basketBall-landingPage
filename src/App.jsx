@@ -5,16 +5,16 @@ const App = () => {
         {/* background-img */}
         <img
           className="h-full w-full object-cover object-[center_60%]"
-          src="https://images.pexels.com/photos/6160093/pexels-photo-6160093.jpeg"
-          alt=""
+          src="/first.jpg"
+          alt="img"
         />
       </div>
       <div className="h-[28rem] w-96 absolute top-32 right-96 ">
         {/* top-img */}
         <img
           className=" h-full w-full object-cover"
-          src="https://images.pexels.com/photos/4347191/pexels-photo-4347191.jpeg"
-          alt=""
+          src="/second.jpg"
+          alt="img"
         />
       </div>
       <div className="text-6xl text-red-700 absolute top-[25rem] right-[39rem]">
