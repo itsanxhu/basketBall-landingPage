@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <div className="relative h-screen">
-      <div className="h-72 w-full bg-amber-200">
+      <div className="h-72 w-full">
         {/* background-img */}
         <img
           className="h-full w-full object-cover object-[center_60%]"
@@ -9,7 +9,7 @@ const App = () => {
           alt=""
         />
       </div>
-      <div className="h-[28rem] w-96 bg-amber-200 absolute top-32 right-96 ">
+      <div className="h-[28rem] w-96 absolute top-32 right-96 ">
         {/* top-img */}
         <img
           className=" h-full w-full object-cover"
