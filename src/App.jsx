@@ -23,10 +23,16 @@ const App = () => {
         <h1>OF</h1>
         <h1>SPORTS</h1>
       </div>
-      <div className="font-semibold absolute bottom-4 bg-amber-400 flex justify-between">
-        <p>Terms of Service</p>
-        <p>Privacy Policy</p>
-        <p>Privacy Settings</p>
+      <div className="w-full px-7 font-semibold absolute bottom-5 flex justify-between tracking-tight">
+        <p className="cursor-pointer">Terms of Service</p>
+        <p className="cursor-pointer">Privacy Policy</p>
+        <p className="cursor-pointer">Privacy Settings</p>
+      </div>
+      <div className="w-32 right-24 absolute top-32 cursor-pointer">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Adidas-group-logo-fr.svg"
+          alt=""
+        />
       </div>
     </div>
   );
